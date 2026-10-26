@@ -77,11 +77,9 @@ html{
   font-size: 0.75rem;
   letter-spacing: 0.1em;
   color: var(--text-muted);
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.25rem;
 }
-
 }
-
 .webhero h1
 {
  font-size: clamp(2.5rem, 8vw, 6rem);
@@ -94,4 +92,36 @@ html{
 
 .webhero h1 span{
   display:block
+}
+
+nav {
+  position :sticky
+  top 0;
+  z-index: 10;
+  padding: 1rem 2rem;
+  background: rgba(250, 250, 250 ,0.7);
+  backdrop-filter: blur(12px);
+
+}
+nav ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav a{
+  color: var(--text);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus-visible{
+  text-decoration: underline;
+}
+
+html {
+  scroll-padding-top: 4rem;
 }

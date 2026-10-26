@@ -11,11 +11,12 @@ const ProjectCard = ({project, index}: ProjectCardProps) => {
     return (
         <div ref={ref} data-reveal data-inview={inView}>
             <article>
+                <h3>{project.title}</h3>
             <p className='hud'>
-                PROJECT_{String(index + 1).padStart(2, '0')} / Status /{''}
+                PROJECT_{String(index + 1).padStart(2, '0')} / Status /{' '}
                 {project.status === 'in-progress' ? 'IN PROGRESS' : 'COMPLETED'}
             </p>
-            <h3>{project.title}</h3>
+            
             </article>
         </div>
 

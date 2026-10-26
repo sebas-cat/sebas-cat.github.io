@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sebas-cat.github.io/sitemap.xml

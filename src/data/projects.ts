@@ -22,7 +22,7 @@ export const projects: Project[] = [
 },
 {
     id: "electoral-sql",
-    title: "Electoral SQl Database",
+    title: "Electoral SQL Database",
     repoUrl: '---',
     status: "completed",
 },
