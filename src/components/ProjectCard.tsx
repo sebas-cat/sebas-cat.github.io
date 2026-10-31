@@ -13,17 +13,18 @@ const ProjectCard = ({project, index}: ProjectCardProps) => {
             <article>
                 <h3>{project.title}</h3>
             <p className='hud'>
+                PROJECT_{String(index + 1).padStart(2, '0')} / STATUS /{' '}
+                {project.status === 'in-progress' ? 'IN PROGRESS' : 'COMPLETED'}
+            </p>
+
                 {project.summary && <p>{project.summary}</p>}
-                {!project.summary && project.status === 'in-progress' &&(<p>Write-up in progress.</p>)}
+
+                {!project.summary && project.status === 'in-progress' &&(<p>Write-up in progress.</p>
+            )}
                 {project.repoUrl && (
                     <a href={project.repoUrl}>{project.title} repository</a>
                     
                 )}
-                <br/>
-                PROJECT_{String(index + 1).padStart(2, '0')} / STATUS /{' '}
-                {project.status === 'in-progress' ? 'IN PROGRESS' : 'COMPLETED'}
-            </p>
-            
             </article>
         </div>
 
