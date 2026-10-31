@@ -20,7 +20,7 @@ const ProjectCard = ({project, index}: ProjectCardProps) => {
                     
                 )}
                 <br/>
-                PROJECT_{String(index + 1).padStart(2, '0')} / Status /{' '}
+                PROJECT_{String(index + 1).padStart(2, '0')} / STATUS /{' '}
                 {project.status === 'in-progress' ? 'IN PROGRESS' : 'COMPLETED'}
             </p>
             
