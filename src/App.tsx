@@ -70,7 +70,12 @@ const App = () => {
 
 
 
-                  <section id="contact"><h2>Contact information</h2></section>
+                  <section id="contact"><h2>Contact information</h2>
+                  <ul>
+                    <li><a href='mailto:sebastian.vargas.carva@gmail.com'>sebastian.vargas.carva@gmail.com</a></li>
+                    <li><a href='https://github.com/sebas-cat'>GitHub</a></li>
+                    <li><a href='https://www.linkedin.com/in/sebastian-vargas1/'>LinkedIn</a></li>
+                    </ul></section>
                   
       </main>
     </div>
