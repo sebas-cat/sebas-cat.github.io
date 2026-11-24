@@ -4,7 +4,7 @@ const webHero = () => {
     <div>
        <header className="hero">
   <p className="hud hero-tl">COMPUTER SCIENCE / ULACIT</p>
-  <p className="hud hero-tr">GRADUATING / DECEMBER 2026</p>
+  <p className="hud hero-tr">GRADUATE / DECEMBER 2026</p>
 
   <div className="hero-main">
     <h1>
