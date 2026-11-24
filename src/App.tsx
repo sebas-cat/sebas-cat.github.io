@@ -37,13 +37,13 @@ const App = () => {
         <ul><li>Spanish (Native)</li>
         <li>English (Bilingual) <a href='https://etscertificate.engdis.com/certificate/455a08f4-4c77-487c-89f4-23a92da28b56'>TOEIC 980/990</a></li>
         <li>French (Basic)</li>
-        <li>Mnadarin (Learning)</li></ul>
+        <li>Mandarin (Learning)</li></ul>
         </section>
         
           <section id="education"><h2>Education</h2>
           <article> <h3>Computer Science</h3>
           <p>ULACIT</p>
-          <p className='hud'>Expected Graduation / December 2026</p>
+          <p className='hud'>Graduation / December 2026</p>
           </article>
           </section>
 
