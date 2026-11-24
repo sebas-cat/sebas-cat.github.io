@@ -145,4 +145,38 @@ main a{
  
 }
 
+root {
+  --nav-h: 4rem;
+}
+
+.hero {
+  min-height: calc(100svh - var(--nav-h));
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'tl tr'
+    'main main'
+    'bl br';
+  padding-block: 1.5rem;
+}
+hero-main {
+  grid-area: main;
+  align-self: center;
+  text-align: center;
+}
+
+.hero-main p {
+  margin: 1.5rem auto 0;
+  max-width: 36ch;
+}
+.hero h1 {
+  text-align: center;
+}
+.hero .hud { margin: 0; }
+.hero-tl { grid-area: tl; }
+.hero-tr { grid-area: tr; justify-self: end; text-align: right; }
+.hero-main { grid-area: main; align-self: center; }
+.hero-bl { grid-area: bl; align-self: end; }
+.hero-br { grid-area: br; align-self: end; justify-self: end; text-align: right; }
 
